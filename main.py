@@ -17,6 +17,25 @@ class Human:
                 return
             self.satiety += 5
             self.home.food -=5
+        def get_bycicle(self):
+            self.bycicle = Bycicle(color_of_bycicle)
+        def get_home(self):
+            self.home = House()
+
+class Bycicle:
+    def __init__(self, color_of_bycicle):
+        self.color_of_bycicle = ["red", 'green', 'blue']
+        if choce(self.color_of_bycicle) == 'red':
+            self.color_of_bycicle = 'red'
+        else choce(self.color_of_bycicle) == 'green':
+            self.color_of_bycicle = 'green'
+        else:
+            self.color_of_bycicle = 'blue'
+
+
+
+
+
 
 
 
